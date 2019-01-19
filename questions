@@ -8,9 +8,13 @@ Stacks
 	Evaluate postfix expression using a stack
 	Sort values in a stack
 	Check balanced parentheses in an expression
+	access the largest element in a stack
 	
 Queue
-	Implement stack using a queue
+	1. Implement stack using a queue.
+		a. Implement a queue ↴ with 2 stacks. 
+		Your queue should have an enqueue and a dequeue method 
+		and it should be "first in first out" (FIFO).
 	Reverse first k elements of a queue
 	Generate binary numbers from 1 to n using a queue
 	
@@ -44,3 +48,6 @@ Hash
 	Trace complete path of a journey
 	Find if an array is a subset of another array
 	Check if given arrays are disjoint
+	Write a function that takes an integer flight_length (in minutes) 
+	and a list of integers movie_lengths (in minutes) and returns a 
+	boolean indicating whether there are two numbers in movie_lengths whose sum equals flight_length.
