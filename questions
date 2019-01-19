@@ -44,10 +44,13 @@ Trie - Prefix trees
 	Build a T9 dictionary
 	
 Hash
-	Find symmetric pairs in an array
-	Trace complete path of a journey
-	Find if an array is a subset of another array
-	Check if given arrays are disjoint
-	Write a function that takes an integer flight_length (in minutes) 
-	and a list of integers movie_lengths (in minutes) and returns a 
+	Find symmetric pairs in an array.
+	Trace complete path of a journey.
+	Find if an array is a subset of another array.
+	Check if given arrays are disjoint.
+	Write a function that takes an integer flight_length (in minutes) -
+	and a list of integers movie_lengths (in minutes) and returns a -
 	boolean indicating whether there are two numbers in movie_lengths whose sum equals flight_length.
+	Write an efficient function that checks whether any permutation ↴ of an input string is a palindrome.
+	Write a function that takes: a list of unsorted_scores the highest_possible_score in the game -
+	and returns a sorted list of scores in less than O(nlgn) time.
