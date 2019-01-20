@@ -54,3 +54,7 @@ Hash
 	Write an efficient function that checks whether any permutation ↴ of an input string is a palindrome.
 	Write a function that takes: a list of unsorted_scores the highest_possible_score in the game -
 	and returns a sorted list of scores in less than O(nlgn) time.
+	
+graph
+	Given an undirected graph ↴ with maximum degree D, find a graph coloring ↴ using at most D+1 colors.
+	You wrote a trendy new messaging app, MeshMessage, to get around flaky cell phone coverage.
