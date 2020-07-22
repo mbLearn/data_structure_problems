@@ -119,3 +119,20 @@ class Test(unittest.TestCase):
 
 
 unittest.main(verbosity=2)
+
+
+# Space Complexity = O(N)
+# Time Complexity = O(N + M)
+
+# In the worst case, we'll go through the BFS loop once for every node in the graph, 
+# since we only ever add each node to nodes_to_visit once 
+# (we check how_we_reached_nodes to see if we've already added a node before). 
+# Each loop iteration involves a constant amount of work to dequeue the node 
+# and check if it's our end node. If we have n nodes, then this portion of the loop is 
+# O(N).
+
+# But there's more to each loop iteration: we also look at the current node's neighbors. 
+# Over all of the nodes in the graph, checking the neighbors is O(M), 
+# since it involves crossing each edge twice: once for each node at either end.
+
+# Putting this together, the complexity of the breadth-first search is O(N+M).
